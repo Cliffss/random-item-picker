@@ -1,3 +1,5 @@
+**THIS CAN ONLY BE USED IN THE LINUX TERMINAL **
+--
 This is used as a tool to get ideas for drawing, writing etc. Hope you enjoy it :)
 
 STEPS:
