@@ -5,8 +5,8 @@ randomize() { grep '[^ \t]' | sort -R; }
 echo 'Enter your desired amount of lines generated'
 read lines
 
-a=~/rip/words/adjectives
-n=~/rip/words/nouns
+a=./words/adjectives
+n=./words/nouns
 
 while (( lines-- )) && read a && read n <&3
 do
