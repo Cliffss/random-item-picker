@@ -1,4 +1,4 @@
-THIS CAN ONLY BE USED IN THE LINUX TERMINAL 
+Linux
 --
 This is used as a tool to get ideas for drawing, writing etc. Hope you enjoy it :)
 
@@ -10,3 +10,13 @@ STEPS:
 5. In terminal do: **./rip.sh**
 6. Enjoy!
 **Note: If you want to add a shortcut to this command do: alias "rip"=(PWD)/rip.sh**
+
+
+**Windows** 
+--
+
+STEPS:
+1. Download git bash: https://git-scm.com/downloads
+2. Download the zip of the repository
+3. Open rip.sh
+4. Enjoy :)
