@@ -10,6 +10,7 @@ STEPS:
 5. In terminal do: **cd rip**
 6. In terminal do: **./rip.sh**
 7. Enjoy!
+
 **Note: If you want to add a shortcut to this command do: alias "rip"=(Working Directory)/rip.sh**
 
 
