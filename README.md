@@ -20,5 +20,6 @@ STEPS:
 STEPS:
 1. Download git bash: https://git-scm.com/downloads
 2. Download the zip of the repository
-3. Open rip.sh
-4. Enjoy :)
+3. Extract
+4. Open rip.sh
+5. Enjoy :)
