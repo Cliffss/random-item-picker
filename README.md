@@ -6,7 +6,7 @@ STEPS:
 1. Open your terminal of choice.
 2. In terminal do: **sudo apt update**
 3. In terminal do: **sudo apt install git**
-4. In terminal do: **git clone https://github.com/Cliffss/rip**
+4. In terminal do: **git clone https://github.com/Cliffss/random-item-picker**
 5. In terminal do: **cd rip**
 6. In terminal do: **./rip.sh**
 7. Enjoy!
