@@ -1,12 +1,11 @@
 **RANDOM ITEM PICKER**
-------------
 
 
-
+Ever been stumped thinking of ideas? Well this is your cure! This is a tool to randomly generate a phrase including an adjective and noun. This is my first actual project so i hope you like it :)
 
 Linux
 --
-This is used as a tool to get ideas for drawing, writing etc. Hope you enjoy it :)
+
 
 STEPS:
 1. Open your terminal of choice.
