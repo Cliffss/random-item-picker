@@ -9,6 +9,7 @@ cat << "EOF"
  |_|  \_\/_/    \_\|_| \_||_____/  \____/ |_|  |_|   |_____|   |_|   |______||_|  |_|   |_|    |_____|\_____||_|\_\|______||_|  \_\
 
 EOF
+
 randomize() { grep '[^ \t]' | sort -R; }
 
 echo 'Enter your desired amount of lines generated'
@@ -29,10 +30,6 @@ a=./words/adjectives.txt
 n=./words/nouns.txt
 
 
-echo 'Do you wish to log the results? (y/n) '
-read answer
-if [ $answer == 'y' ]
-then
 printf -v _hr "%*s" $(tput cols) && echo ${_hr// /${1--}}
 while (( lines-- )) && read a && read n <&3
 do
@@ -40,12 +37,5 @@ echo "$a $n" >> $log
 sleep .3
 done < <(randomize < $a) 3< <(randomize < $n)
 cat "$(ls -1rt | tail -n1)"
-else
-printf -v _hr "%*s" $(tput cols) && echo ${_hr// /${1--}}
-while (( lines-- )) && read a && read n <&3
-do
-echo "$a $n"
-sleep .5
-done < <(randomize < $a) 3< <(randomize < $n)
-fi
+
 $SHELL
